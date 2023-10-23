@@ -1,0 +1,23 @@
+# Jogo de Bingo em Python
+
+Este é um jogo de Bingo desenvolvido em Python que permite até 5 jogadores competirem para preencher suas cartelas e ganhar prêmios. O jogo simula a experiência de um jogo de Bingo tradicional com a capacidade de gerar cartelas aleatórias, sortear números e identificar os vencedores.
+
+## Funcionalidades
+
+- Definição de jogadores: Solicite o número de jogadores (de 2 a 5) e seus nomes no início do jogo.
+- Geração de Cartelas: Gere até 5 cartelas aleatórias de acordo com a quantidade de jogadores.
+- Interface Gráfica: Exiba uma interface gráfica no terminal que mostra as cartelas geradas.
+- Sorteio de Números: Desenvolva uma função que sorteie números entre 1 e 50, atualizando o terminal para exibir os números sorteados e a marcação nas cartelas dos jogadores.
+- Verificação de Ganhadores: Implemente a lógica para verificar se um jogador completou uma linha horizontal, vertical ou diagonal em uma de suas cartelas.
+- Controle de Ranking: Armazene um ranking de vencedores em um arquivo de texto, incluindo o nome do jogador e quantas vezes ele venceu o jogo.
+- Opções de Continuação: Após a conclusão de um jogo, pergunte aos jogadores se desejam continuar com os mesmos jogadores ou começar um novo jogo.
+
+## Como Jogar
+
+1. Clone o repositório para sua máquina local.
+2. Execute o script Python `app.py` no terminal.
+3. Siga as instruções para configurar o número de jogadores, nomes e jogar o Bingo.
+
+## Requisitos
+
+- Python 3.x
